@@ -1,0 +1,19 @@
+---
+title: "An intro to censorzip"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An intro to censorzip}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(censorzip)
+```

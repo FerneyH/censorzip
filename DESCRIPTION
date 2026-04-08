@@ -1,0 +1,17 @@
+Package: censorzip
+Title: Censored-Zero-inflated-Poisson-Regression-Model
+Version: 0.0.0.9000
+Author: Ferney Henao-Ceballos
+Maintainer: Ferney <fhenaoceballos@uiowa.edu>
+Description: We utilize the simplification of GLMs to derive a new algorithm for maximum likelihood estimation by the Newton-Rhapson method in the Censored Zero-inflated Poisson Regression Model.
+Depends: maxLik, pscl
+Imports: Rdpack
+RdMacros: Rdpack
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
